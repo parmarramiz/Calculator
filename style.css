@@ -1,10 +1,10 @@
 body{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 #container{
      width: 1000px;
     height: 590px; 
-    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) ,url('snowflakes-554635_1920.jpg');
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)) ,url('bgpic.jpg');
     margin: 20px auto;
 }
 #calculator{
@@ -57,14 +57,14 @@ body{
          cursor: pointer;
          font-size: 22px;
         /* font-weight: bold; */
-        background-color: rgb(0, 0, 0);
+        background-color: rgb(13, 13, 13);
         color:white;
         /* border-color: white; */
         border-style: initial;
         border: 1px solid rgb(56, 56, 56);
         }
         .digit,.empty{
-            background-color: rgb(0, 0, 0);
+            background-color: rgb(13, 13, 13);
             color:white;
             /* border-color: white; */
             border-style: initial;
@@ -78,4 +78,5 @@ body{
         }
         .empty{
             border-color: black;
+            background-color:rgb(10,10,10)
         }
