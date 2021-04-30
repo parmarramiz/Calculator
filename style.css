@@ -1,0 +1,81 @@
+body{
+    background-color: black;
+}
+#container{
+     width: 1000px;
+    height: 590px; 
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) ,url('snowflakes-554635_1920.jpg');
+    margin: 20px auto;
+}
+#calculator{
+    position: relative;
+    height: 550px;
+    width: 350px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+    top: 20px;
+    border-radius: 20px;
+    box-shadow: black;
+
+}
+#result{
+    
+    
+}
+#history{
+    height: 21px;
+    text-align: right;
+    font-size: 20px;
+    /* font-weight: bold; */
+    color:lawngreen;
+    padding: 1px 20px;
+
+    
+    }
+    #output{
+        height: 37px;
+        text-align: right;
+        font-size: 25px;
+        font-weight: bold;
+        color:lawngreen;
+        padding: 12px 20px;
+    
+    
+     }
+     #keypad{
+        margin-top: 30px;
+       padding: 0px 14px;
+     }
+     
+     .opr,.digit,.empty{
+         width:50px;
+         height: 50px;
+         margin: 15px;
+         float: left;
+         border-radius: 20px;
+         /* border-style: none; */
+         cursor: pointer;
+         font-size: 22px;
+        /* font-weight: bold; */
+        background-color: rgb(0, 0, 0);
+        color:white;
+        /* border-color: white; */
+        border-style: initial;
+        border: 1px solid rgb(56, 56, 56);
+        }
+        .digit,.empty{
+            background-color: rgb(0, 0, 0);
+            color:white;
+            /* border-color: white; */
+            border-style: initial;
+            border: 1px solid rgb(56, 56, 56);
+        }
+        #div,#mul,#minus,#add,#eql,#per{
+            color:lawngreen
+        }
+        #clear,#bs{
+            color:orangered
+        }
+        .empty{
+            border-color: black;
+        }
